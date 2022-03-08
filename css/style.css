@@ -1,0 +1,296 @@
+body {
+  background-color: #FFFFFF;
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.conteiner {
+  width: 1445px;
+  height: 4759px;
+  margin: auto;
+  background: #FFFFFF;
+  margin-top: 32px;
+}
+
+.conteinerwork__nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0;
+}
+
+.home {
+  color: #070707;
+}
+
+a {
+  color: #828282;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+hr {
+  margin-top: 40px;
+}
+
+.section {
+  margin: 40px;
+}
+
+.section img {
+  height: 387px;
+  width: 943px;
+  margin: 50px;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+.section .section__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section .section__text h1 {
+  width: 123px;
+  height: 118px;
+}
+
+.section .section__text .section__textskill {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section .section__text .ru {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.Aboutme {
+  margin-top: 104px;
+  background: #F6F6F6;
+  width: 1445px;
+  height: 509px;
+  left: 0px;
+  top: 768px;
+}
+
+.Aboutme .divAboutme {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Aboutme .Aboutme__i {
+  position: relative;
+  margin-top: 120px;
+  font-size: 24px;
+}
+
+.Aboutme .Aboutme__text {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10 480 107 600px;
+  color: #070707;
+}
+
+.Skills {
+  height: 610px;
+  background: #FFFFFF;
+  margin-bottom: 111px;
+}
+
+.Skills h1 {
+  padding-top: 91px;
+  padding-bottom: 49px;
+  font-size: 34px;
+  text-align: center;
+}
+
+.Skills p {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 84px;
+}
+
+.Skills .Skills__logo-logoSkills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 950px;
+  height: 207px;
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Skills .Skills__logo-logoSkills .Skills__logo__ps {
+  width: 166px;
+  height: 206px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.Skills .Skills__logo-logoSkills .Skills__logo__ps img {
+  margin-bottom: 24px;
+  background: radial-gradient(75.99% 75.64% at 32.94% 22.44%, rgba(52, 54, 78, 0.98) 0%, #0C0824 100%);
+}
+
+.Skills .Skills__logo-logoSkills .Skills__logo__ps .black {
+  background: #FFFFFF;
+  border-radius: 1px;
+  margin-top: 40px;
+}
+
+.Skills .Skills__logo__ai {
+  width: 166px;
+  height: 206px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.Skills .Skills__logo__ai img {
+  margin-bottom: 24px;
+  background: radial-gradient(75.99% 75.64% at 32.94% 22.44%, rgba(52, 54, 78, 0.98) 0%, #0C0824 100%);
+}
+
+.Skills .Skills__logo__ai .black {
+  background: #FFFFFF;
+  border-radius: 1px;
+  margin-top: 40px;
+}
+
+.Skills .Skills__logo__ae {
+  width: 166px;
+  height: 206px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.Skills .Skills__logo__ae img {
+  margin-bottom: 24px;
+  background: radial-gradient(75.99% 75.64% at 32.94% 22.44%, rgba(52, 54, 78, 0.98) 0%, #0C0824 100%);
+}
+
+.Skills .Skills__logo__ae .black {
+  background: #FFFFFF;
+  border-radius: 1px;
+  margin-top: 40px;
+}
+
+.Portfolio {
+  width: 1445px;
+  height: 2253px;
+  background: #F6F6F6;
+  text-align: center;
+}
+
+.Portfolio h3 {
+  color: #070707;
+  font-size: 34px;
+  padding: 113px 0 43px 0;
+}
+
+.Portfolio .Portfolio__woman {
+  color: #070707;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 45px 0 100px 0;
+}
+
+.Portfolio .Portfolio__reebok {
+  color: #070707;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 45px 0 100px 0;
+}
+
+.Portfolio .Portfolio__braun {
+  color: #070707;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 46px 0 96px 0;
+}
+
+.Contacts {
+  text-align: center;
+}
+
+.Contacts h3 {
+  padding: 35px 0 20px 0;
+  font-size: 34px;
+  line-height: 42px;
+  color: #070707;
+}
+
+.Contacts .want {
+  font-size: 18px;
+  line-height: 21px;
+  color: #070707;
+}
+
+.Contacts button {
+  width: 180px;
+  height: 42px;
+  background-color: #070707;
+  color: #FFFFFF;
+  border-radius: 25px;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 29px 0 20px 0;
+  cursor: pointer;
+}
+
+.Contacts .Contacts__img {
+  margin: 0 550px 45px 550px;
+  width: 342px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+  cursor: pointer;
+}
+
+.Contacts p {
+  font-size: 14px;
+  color: #828282;
+  line-height: 17px;
+}

@@ -1,0 +1,314 @@
+body{
+   background-color: #FFFFFF;
+   font-family: 'Oswald', sans-serif;
+   margin: 0;
+   padding: 0; 
+   box-sizing: border-box;
+   
+ }
+ 
+.conteiner {
+   width: 1445px;
+   height: 4759px;
+   margin: auto;
+   background: #FFFFFF;
+   margin-top: 32px;
+   
+}
+
+.conteinerwork__nav{
+   
+   & ul{
+      display: flex;
+      list-style-type: none;
+      justify-content: space-between;  
+      padding: 0;  
+   }
+
+}
+
+.home{
+   color: #070707;
+}
+
+a{
+   color: #828282;
+   cursor: pointer;
+   text-decoration: none;
+}
+
+hr{
+   margin-top: 40px;
+}
+
+.section{
+   margin: 40px;
+   
+
+   & img{
+      height: 387px;
+      width: 943px;
+      margin: 50px;
+      text-align:center;
+      display:block;
+      margin: auto;
+      
+   }
+
+    & .section__text {
+      display: flex;
+      justify-content: space-between;
+      
+   
+       & h1{
+         width: 123px;
+         height: 118px;
+           
+       }
+       
+       & .section__textskill  {
+          display: flex;
+          align-items:center;
+         
+          
+       }    
+
+       & .ru{
+          display: flex;
+          align-items: center;
+          transform: rotate(-90deg);
+          
+       }
+   
+   }
+
+}
+
+.Aboutme{
+   margin-top: 104px; 
+   background: #F6F6F6;
+   width: 1445px;
+   height: 509px;
+   left: 0px;
+   top: 768px;
+   
+
+   & .divAboutme{
+     display: flex;
+     justify-content: center;
+      align-items: center;
+   // text-align: center;
+   // margin: 10px;
+   // padding: 40px;      !!!!!!! МБ ВСЕ ТАКИ ТАК????
+          
+
+   }
+
+   & .Aboutme__i{  
+      position: relative;
+      
+      margin-top: 120px;  
+      font-size: 24px;
+     
+
+   }
+   & .Aboutme__text{
+      
+      position: relative;
+      display: flex;
+      justify-content: center;
+      margin: 10 480 107 600px;
+      color: #070707;  
+         
+
+   }
+
+}
+
+.Skills{
+   height: 610px;
+   background: #FFFFFF;
+   margin-bottom: 111px;
+     
+   & h1{
+      padding-top: 91px;
+      padding-bottom: 49px;
+      font-size: 34px;
+      text-align: center;
+      
+   }
+
+   & p{
+      font-size: 18px;
+      text-align: center;
+      margin-bottom: 84px;
+   }
+
+   & .Skills__logo-logoSkills{
+      display: flex;  
+      width: 950px;
+      height: 207px; 
+      margin: 0 auto;
+      justify-content: space-between;
+
+      & .Skills__logo__ps{
+         width: 166px;
+         height: 206px;
+         text-align: center;    
+         font-size: 14px;
+         line-height: 17px;
+         
+
+         & img{
+            margin-bottom: 24px;
+            background: radial-gradient(75.99% 75.64% at 32.94% 22.44%, rgba(52, 54, 78, 0.98) 0%, #0C0824 100%);
+
+         }
+
+         & .black{
+            background:#FFFFFF;
+            border-radius: 1px;
+            margin-top: 40px;
+            
+         }
+                  
+      }
+     
+   }
+
+   & .Skills__logo__ai{
+      width: 166px;
+      height: 206px;
+      text-align: center;    
+      font-size: 14px;
+      line-height: 17px;
+
+      & img{
+         margin-bottom: 24px;
+         background: radial-gradient(75.99% 75.64% at 32.94% 22.44%, rgba(52, 54, 78, 0.98) 0%, #0C0824 100%);
+         
+      }
+
+      &  .black{
+         background:#FFFFFF;
+         border-radius: 1px;
+         margin-top: 40px;
+
+      }
+
+
+   }
+ 
+   & .Skills__logo__ae{
+      width: 166px;
+      height: 206px;
+      text-align: center;    
+      font-size: 14px;
+      line-height: 17px;
+      
+
+      & img{
+         margin-bottom: 24px;
+         background: radial-gradient(75.99% 75.64% at 32.94% 22.44%, rgba(52, 54, 78, 0.98) 0%, #0C0824 100%);
+         
+
+      }
+
+      &  .black{
+         background:#FFFFFF;
+         border-radius: 1px;
+         margin-top: 40px;
+
+
+      }
+
+   }
+
+}
+
+.Portfolio{
+   width: 1445px;
+   height: 2253px;
+   background: #F6F6F6;
+   text-align: center; 
+   
+   & h3{
+      color:#070707;
+      font-size: 34px;
+      padding: 113px 0 43px 0;
+   }
+
+   & .Portfolio__woman{
+      color: #070707;
+      font-size: 18px;
+      line-height: 21px;
+      margin: 45px 0 100px 0;
+   }
+
+   & .Portfolio__reebok{
+      color: #070707;
+      font-size: 18px;
+      line-height: 21px;
+      margin: 45px 0 100px 0;
+   }
+
+   & .Portfolio__braun{
+      color: #070707;
+      font-size: 18px;
+      line-height: 21px;
+      margin: 46px 0 96px 0;
+   }
+}
+
+.Contacts{
+   text-align: center;
+
+   & h3{
+      padding:35px 0 20px 0;
+      font-size: 34px;
+      line-height: 42px;
+      color: #070707;
+   }
+
+   & .want{
+      font-size: 18px;
+      line-height: 21px;
+      color: #070707;
+   }
+
+   & button{
+      width: 180px;
+      height: 42px;
+      background-color: #070707;
+      color: #FFFFFF;
+      border-radius: 25px;
+      font-size: 18px;
+      line-height: 22px;
+      margin: 29px 0 20px 0;
+      cursor: pointer;
+
+   }
+
+   & .Contacts__img{
+      margin: 0 550px 45px 550px;
+      width: 342px;
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+      cursor: pointer;
+
+   }
+
+   & p{
+      font-size: 14px;
+      color: #828282;
+      line-height: 17px;
+      // margin: 0 0 123px 0;
+   }
+
+
+
+
+
+
+}
